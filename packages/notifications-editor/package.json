@@ -1,0 +1,37 @@
+{
+	"name": "@quillforms/notifications-editor",
+	"version": "1.2.16",
+	"description": "Notifications editor package",
+	"author": "Mohamed Magdy <md.magdy.sa@gmail.com> (https://github.com/mdmag)",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"quillforms",
+		"notifications",
+		"editor"
+	],
+	"homepage": "https://github.com/quillforms/quillforms/tree/master/packages/notifications-editor/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/quillforms/quillforms.git",
+		"directory": "packages/notifications-editor"
+	},
+	"bugs": {
+		"url": "https://github.com/quillforms/quillforms/issues"
+	},
+	"main": "build/index.js",
+	"module": "build-module/index.js",
+	"dependencies": {
+		"@babel/runtime": "^7.16.0",
+		"@quillforms/admin-components": "file:../admin-components",
+		"@quillforms/config": "file:../config",
+		"react-confirm-alert": "^2.7.0",
+		"react-multi-email": "^0.5.3"
+	},
+	"peerDependencies": {
+		"react": "^17.0.0",
+		"react-dom": "^17.0.0"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}
